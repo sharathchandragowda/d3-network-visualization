@@ -1,0 +1,34 @@
+<html>
+  <body>
+<head>
+    <h1> <a href = "https://shareroom1.eu.boehringer.com/de/nova/Lists/PoC/DispForm.aspx?ID=61&ContentTypeId=0x0100D8F2F97D0407344EA84DB4F54D2F5F47" target = "_blank">Network Visualization</a> </h1>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+          rel="stylesheet"> </link>
+    <script src='http://d3js.org/d3.v3.min.js'></script>
+</head>
+  <h3>
+    Interact with Layout by clicking on the buttons and nodes. Hover over nodes for information.
+  </h3>
+    <button id='advance' title='Advance Layout One Increment'>
+        <i class='fa fa-step-forward'></i>
+    </button>
+    <button id='slow' title='Run Layout in Slow Motion'>
+        <i class='fa fa-play'></i>
+    </button>
+    <button id='refresh' title='Refresh the Page' onClick="history.go(0)">
+        <i class='fa fa-refresh'></i>
+    </button>
+    <button id='zoom_in' title='Zoom In'>
+        <i class='fa fa-search-plus'></i>
+    </button>
+    <button id='zoom_out' title='Zoom Out'>
+        <i class='fa fa-search-minus'></i>
+    </button>
+    <div class="searchBar">
+     <input type="text" id="searchText" onkeydown = "if (event.keyCode == 13)
+                        document.getElementById('searchButton').click()">
+     <input id="searchButton" value="Search Claim" type="button"/>
+    </div>
+</div>
+</body>
+</html>

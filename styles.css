@@ -1,0 +1,63 @@
+body{
+    background-color:#787878;
+    }
+  h1,h2{
+    text-align:center;
+    color: white;
+  }
+  
+  h3{
+    text-align:left;
+    color: white;
+  }
+  
+  .node {
+      stroke: #fff;
+      stroke-width: 1px;
+  }
+  .link {
+      fill: white;
+      stroke: #777;
+      stroke-width: 2px;
+  }
+  .searchBar {
+    position: absolute;
+    margin-left: 500px;
+  }
+  button {
+      position: absolute;
+      width: 50px;
+      height: 40px;
+  }
+  button#slow {
+      margin-left: 100px;
+  }
+  button#refresh{
+      margin-left: 50px;
+  }
+  button#zoom_in{
+      bottom:0;
+      text-align:center;
+  }
+  button#zoom_out{
+      bottom:0;
+      position: inline-block;
+      margin-left: 50px;
+  }
+  
+  .tooltip{
+          position: absolute;		
+          text-align: center;		
+          width: auto;				
+          height: auto;				
+          padding: 2px;			
+          font: 12px sans-serif;	
+          background: lightsteelblue;	
+          border: 0px;		
+          border-radius: 8px;		
+          pointer-events: none;
+  }
+  
+  a:link {color:orange;  text-decoration:none}
+  a:visited {color:orangered; text-decoration:none}
+  a:hover   {color:red; text-decoration:underline}
